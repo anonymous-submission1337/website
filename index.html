@@ -1,0 +1,201 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>State Representation Learning</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Sidebar -->
+			<section id="sidebar">
+				<div class="inner">
+					<nav>
+						<ul>
+							<li><a href="#intro">Abstract</a></li>
+							<li><a href="#datasets">Datasets</a></li>
+							<li><a href="#results">Results</a></li>
+							<li><a href="#code">Code Repository</a></li>	
+							<li><a href="#contact">Contact</a></li>
+						</ul>
+					</nav>
+				</div>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Intro -->
+					<section id="intro" class="wrapper style1 fullscreen fade-up">
+						<div class="inner">
+							<h2>State Representation Learning with Task-Irrelevant Factors of Variation in Robotics</h2>
+							<h3>Anonymous Authors</h3>
+							<p>
+							<b>Abstract:</b> Learning state representations enables robotic planning directly from raw observations such as images.
+								Most methods learn state representations by utilizing losses based on the reconstruction of the raw observations from a lower-dimensional latent space.
+								The similarity between observations in the space of images is often assumed and used as a proxy for estimating similarity between the underlying
+								states of the system.
+								However, observations commonly contain task-irrelevant factors of variation which are nonetheless important for reconstruction, such as varying lighting and different camera viewpoints.
+								In this work, we define relevant evaluation metrics and perform a thorough study of different loss functions for state representation learning.
+								We show that models exploiting weak supervision, such as Siamese networks with a simple contrastive loss, outperform reconstruction-based representations in visual planning.
+							</p>
+
+							<video controls="true" width="75%" height="auto" class="embed-responsive-item">
+									      		<source src="videos/summary.m4v" type="video/mp4" />
+								</video>
+
+
+
+							<p> 
+							<!--small>*Contributed equally and listed in alphabetical order</small-->
+							</p>
+							<a href="files/todo.pdf" download="files/todo.pdf">Paper will be avalible after acceptance</a>
+							<p> </p>
+							
+							
+
+
+						</div>
+					</section>
+
+
+					<!-- tasks -->
+					<section id="datasets" class="wrapper style2 fade-up">
+						<div class="inner">
+							<h2>Datasets</h2>
+
+							<h3>Box manipulation :</h3>
+							<a  class="image"><img src="images/web_box_manip.png" alt="" data-position="center center" style="height:240px;"/></a>														
+							<p> </p>
+							<a href="https://kth.box.com/shared/static/3rarimct07pao8r3qd1frc6hndkykiqs.xz" download="box_manipulation_datasets.xz">Download box manipulation datasets</a>	
+
+							<p> </p>	
+							
+
+							
+
+							<h3>Shelf arrangement:</h3>
+							<a  class="image"><img src="images/web_dataset_shelf.png" alt="" data-position="center center" style="height:240px;"/></a>														
+							<p> </p>
+							<a href="https://kth.box.com/shared/static/fe8iwuok21lk70g7n66n6u9dhzwek7mx.xz" download="shelf_arrangment_datasets.xz">Download shelf arrangement datasets</a>	
+
+							<p> </p>	
+
+							<h3>Box stacking:</h3>
+
+							<a  class="image"><img src="images/web_dataset_box.png" alt="" data-position="center center" style="height:240px;"/></a>														
+							<p> </p>
+							<a href="https://kth.box.com/shared/static/i4aah3cv6fxzft8crgypdwv2943hzwkx.xz" download="box_stacking_datasets.xz">Download box stacking datasets</a>	
+
+						
+
+						</div>
+					</section>
+
+
+
+				<!-- Results -->
+					<section id="results" class="wrapper style3 spotlights">
+						<div class="inner">
+							<h2>Results</h2>
+							<h3>Box manipulation:</h3>
+							<p> <b>Representation evaluation metrics:</b></p>
+							<a  class="image"><img src="images/web_table_box_manip.png" alt="" data-position="center center" style="width:800px;"/></a>
+
+							<p></p>
+							<p> <b>Representation t-SNE plots:</b></p>
+							<a  class="image"><img src="images/web_plot_box_manip.png" alt="" data-position="center center" style="width:800px;"/></a>
+							<p></p>
+
+							
+
+							<h3>Shelf arrangment</h3>
+
+							<p> <b>Representation evaluation metrics:</b></p>
+							<a  class="image"><img src="images/web_table_shelf.png" alt="" data-position="center center" style="width:800px;"/></a>
+
+							<p></p>
+							<p> <b>Representation t-SNE plots:</b></p>
+							<a  class="image"><img src="images/web_plot_shelf.png" alt="" data-position="center center" style="width:800px;"/></a>
+							<p></p>
+
+							<h3>Box stacking:</h3>
+							<p> <b>Representation evaluation metrics:</b></p>
+							<a  class="image"><img src="images/web_table_box.png" alt="" data-position="center center" style="width:800px;"/></a>
+
+							<p></p>
+							<p> <b>Representation t-SNE plots:</b></p>
+							<a  class="image"><img src="images/web_plot_box.png" alt="" data-position="center center" style="width:800px;"/></a>
+							<p></p>
+
+
+						
+						
+
+
+					</section>
+
+				<!-- Two -->
+					<section id="code" class="wrapper style4 fade-up">
+					
+						<div class="inner">
+							<h2>Code Repository</h2>
+							<p>The project code can be found on the gitrepo:</p>
+
+							<a href="https://github.com/anonymous-submission1337/code" >Code Repository</a>
+							<p> </p>						
+
+
+						</div>
+						
+
+					</section>
+
+				
+
+					
+					<!-- five -->
+					<section id="contact" class="wrapper style1 fade-up">
+						<div class="inner">
+							<h2>Contact</h2>
+							 <li>Anonymous Authors</li> 						
+										
+
+
+									</ul>
+							
+						</div>
+					</section>
+
+
+
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper style1-alt">
+				<div class="inner">
+				<ul class="copyright">
+						<li>&copy; All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
